@@ -1,0 +1,16 @@
+<ul class="position-list">
+    <li class="item" ng-repeat="item in data" ui-sref="position({id:item.id})">
+        <img  ng-src='{{item.imgSrc}}' alt="" class="logo f_l">
+        <h3 class="title">{{item.name}}</h3>
+        <p class="text" ng-bind="item.companyName+'['+item.city+']'+' '+item.industry"></p>
+            <p>{{item.time}}</p>
+    </li>
+    <!--<li class="item"><img  src="image/company-3.png" alt="" class="logo f_l">-->
+        <!--<h3 class="title">销售</h3>-->
+        <!--<p class="text">前度上海<br>2017-23-11</p>-->
+    <!--</li>-->
+    <!--<li class="item"><img  src="image/company-3.png" alt="" class="logo f_l">-->
+        <!--<h3 class="title">销售</h3>-->
+        <!--<p class="text">前度上海<br>2017-23-11</p>-->
+    <!--</li>-->
+</ul>

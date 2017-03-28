@@ -1,0 +1,25 @@
+{
+  "name": "ng-lagou",
+  "authors": [
+    "lihongyan <1440293934@qq.com>"
+  ],
+  "description": "angular.js  create lagou webApp",
+  "main": "",
+  "keywords": [
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.5.8",
+    "angular-ui-router": "ui-router#0.3.1"
+  }
+}
